@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mimmit koodaa bootcamp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mimmitkoodaabootcamp.css" />
+</head>
+
+<body>
+    <header class="relative">
+        <div class="absolute"><h1>Pauliina Kontio </h1>
+         <br>
+         <h2>CV</h2>
+         </div>
+     </header>
+ 
+ 
+     <div class="row">
+        <nav>
+            <h2>Valikko</h2>
+            <ul>
+                <li id="etusivu"><a href="mimmitkoodaabootcamp.html">Etusivu</a></li>
+                <div class="dropdown">
+                    <li><a href="mkbtyökokemus.html">Työkokemus</a></li>
+                    <div class="dropdown-content">
+                        <div>
+                            <ul>
+                                <li class="alalinkki"><a href="mkbnykyinentyö.html">Nykyinen työ</a></li>
+                                <li class="alalinkki"><a href="mkbaiemmattyöpaikat.html">Aiemmat työpaikat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">    
+                    <li><a href="mkbkoulutus.html">Koulutustausta</a></li>
+                    <div class="dropdown-content">
+                        <div>
+                            <ul>
+                                <li class="alalinkki"><a href="mkbopiskelu.html">Opiskelu</a></li>
+                                <li class="alalinkki"><a href="mkbmuutopinnot.html">Muut opinnot</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="dropdown">
+                    <li><a href="mkbosaaminen.html">Osaaminen</a></li>
+                    <div class="dropdown-content">
+                        <div>
+                            <ul>
+                                <li class="alalinkki"><a href="mkbit.html">IT</a></li>
+                                <li class="alalinkki"><a href="mkbkielitaito.html">Kielitaito</a></li>
+                                <li class="alalinkki"><a href="mkbmuuosaaminen.html">Muu osaaminen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="mkbotayhteyttä.html"> Ota yhteyttä</a></li>
+           </ul>         
+        </nav>
+         <section>
+            <h3>IT Osaaminen</h3>
+            <div>
+            <h4>Mimmit koodaa bootcamp</h4>
+            <p>
+                9/2020<br />
+                Kahden viikon pituinen bootcamp
+                jonka aikana opiskeltiin ohjelmistoalaa
+                ja sen monimuotoisuutta. Kurssin aikana
+                tehtiin demo-työ, joka on tämä nettisivu.
+            </p>
+            </div>
+            <div>
+                <h4>JavaScript</h4>
+                <p>
+                    The Complete JavaScript Course
+                    - Beginner to Professional <br />
+                    10/2020 <br />
+                    Udemy
+                </p>
+            </div>    
+            <div>
+                <h4>CSS</h4>
+                <p>
+                    5/2020 <br />
+                    W3Schools <br />
+                    Basics of CSS
+                </p>
+            </div>
+            <div>
+                <h4>HTML</h4>
+                <p>
+                    5/2020 <br />
+                    w3Schools <br />
+                    Basics of HTML
+                </p>
+            </div>
+
+         </section>
+         </div>
+         
+         <footer>
+            <div>
+                <span style="line-height: 30px;"> Löydät minut myös täältä</span>
+                <div>
+                    <a href="https://www.linkedin.com/in/pauliina-kontio/" target="_blank"><img src="linkedin.png"
+                            alt="linkedin" width="20px" /></a>
+                    <a href="https://www.instagram.com/pauliinakontio/?hl=fi" target="_blank"><img src="instagram.png" alt="instagram" width="21px" /></a>
+                    <a href="https://fi-fi.facebook.com/pauliina.kontio.1" target="_blank"><img src="facebook.png" alt="facebook" width="20px" /></a>
+                </div>
+                <p style="line-height: 30px;"> © Pauliina</p>
+            </div>
+        </footer>
+        <script> var itkysymys = prompt('Haluatko testata JavaScript taitojani? kyllä/ei')
+                var kylla = 'kyllä'
+                if(itkysymys === kylla) {
+                    
+                    var x = Math.floor(Math.random() *10);
+                    //var arvauskerta= 0;
+                        var kysymys = prompt('Pelataan numeroarvauspeliä, arvaa numero 1-10 väliltä');
+                        if (kysymys == x){
+                        alert('You won!');
+                    }
+                    else {
+                        
+                        alert('No luck this time, meybe next time!');
+                    }
+                }
+                else {
+                    alert('Ok, please continue')
+                }
+                   /**/
+                    /*switch(kysymys) {
+                        case Math.floor(Math.random()*10):
+                            alert('You won!');
+                        break;
+                        default:
+                        kysymys++;
+                            alert("Not quite, let's try again some other time")
+                    }*/
+        
+        </script>
+        <script src="mimmitkoodaabootcamp.js"></script>
+</body>
+</html>

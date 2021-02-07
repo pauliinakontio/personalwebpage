@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mimmit koodaa bootcamp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mimmitkoodaabootcamp.css" />
+</head>
+
+<body>
+    <header class="relative">
+        <div class="absolute"><h1>Pauliina Kontio </h1>
+         <br>
+         <h2>CV</h2>
+         </div>
+     </header>
+ 
+ 
+     <div class="row">
+        <nav>
+            <h2>Valikko</h2>
+            <ul>
+                <li id="etusivu"><a href="mimmitkoodaabootcamp.html">Etusivu</a></li>
+                <div class="dropdown">
+                    <li><a href="mkbtyökokemus.html">Työkokemus</a></li>
+                    <div class="dropdown-content">
+                        <div>
+                            <ul>
+                                <li class="alalinkki"><a href="mkbnykyinentyö.html">Nykyinen työ</a></li>
+                                <li class="alalinkki"><a href="mkbaiemmattyöpaikat.html">Aiemmat työpaikat</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">    
+                    <li><a href="mkbkoulutus.html">Koulutustausta</a></li>
+                    <div class="dropdown-content">
+                        <div>
+                            <ul>
+                                <li class="alalinkki"><a href="mkbopiskelu.html">Opiskelu</a></li>
+                                <li class="alalinkki"><a href="mkbmuutopinnot.html">Muut opinnot</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <div class="dropdown">
+                    <li><a href="mkbosaaminen.html">Osaaminen</a></li>
+                    <div class="dropdown-content">
+                        <div>
+                            <ul>
+                                <li class="alalinkki"><a href="mkbit.html">IT</a></li>
+                                <li class="alalinkki"><a href="mkbkielitaito.html">Kielitaito</a></li>
+                                <li class="alalinkki"><a href="mkbmuuosaaminen.html">Muu osaaminen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="mkbotayhteyttä.html"> Ota yhteyttä</a></li>
+           </ul>         
+        </nav>
+         <section>
+             <h3>Ota yhteyttä!</h3><br />
+            <form method="POST" target="_blank" >
+                <fieldset><br />
+                    
+                    <label for="fname">Nimi:</label><br />
+                    <input type="text" id="fname" name="fname" placeholder="Etunimi Sukunimi" required="required" /><br><br />
+                    <label for="email">Sähköpostiosoite:</label><br />
+                    <input type="email" id="email" name="email" placeholder="xxx@yyy.zz" required="required" /><br /><br />
+                    <label for="työnantaja">Olen työnantaja:</label>
+                    <input type="checkbox" id="työnantaja" name="työnantaja" /><br /><br />
+                    <label for="message">Viesti:</label><br />
+                    <textarea id="message" style="width: 70%; height: 100px;" required="required"></textarea><br />
+                    <input type="submit" value="Submit" />
+                </fieldset>
+            </form>
+
+         </section>
+         </div>
+         
+         <footer>
+            <div>
+                <span style="line-height: 30px;"> Löydät minut myös täältä</span>
+                <div>
+                    <a href="https://www.linkedin.com/in/pauliina-kontio/" target="_blank"><img src="linkedin.png"
+                            alt="linkedin" width="20px" /></a>
+                    <a href="https://www.instagram.com/pauliinakontio/?hl=fi" target="_blank"><img src="instagram.png" alt="instagram" width="21px" /></a>
+                    <a href="https://fi-fi.facebook.com/pauliina.kontio.1" target="_blank"><img src="facebook.png" alt="facebook" width="20px" /></a>
+                </div>
+                <p style="line-height: 30px;"> © Pauliina</p>
+            </div>
+        </footer>
+    
+        <script src="mimmitkoodaabootcamp.js"></script>
+</body>
+</html>
